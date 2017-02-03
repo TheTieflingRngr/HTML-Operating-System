@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title id="openprogram">File browser</title>
+        <!--makes CSS Possible (e.g. desktop background)--> 
+        <link rel="stylesheet" href="settings.css">
+        <script language="javascript1.3">
+            //Warning: the file browsing popup is case sensitive
+            function filebrowse(){
+                var Q= prompt("Are you sure [yes/no]");
+                
+                Q.toLowerCase();
+                if (Q == "y"){
+                    Q= "yes";
+                }
+                if (Q != "yes"){
+                    Q= "no";
+                }
+                if (Q=="yes"){
+                    window.location= "./";
+                };
+                if (Q != "yes"){
+                    alert("Aborted, returning to Desktop");
+                    window.location= "./htmlos-desktop.html";
+                }
+            }
+        </script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body class="look-main">
+        <nav class="nav-side">
+            <iframe src="http://free.timeanddate.com/clock/i538jbsj/n338/tlnl/fn6/fs16/fc9ff/tc000/ftb/pa8/tt0/tw1/th1/ta1/tb4" frameborder="0" width="208" height="56"></iframe><br><br>
+            
+            Apps:<br><br>
+            <a class="size" href="htmlos-desktop.html"><img src="./SysImg/desktop-mini.png" height="50px" width="50px" alt="Show Desktop"></a><br><br>
+            <a class="size" href="htmloscmd.html"><img src="./SysImg/terminal.png" height="50px" width="50px" alt="Command line"></a>
+            <a href="./htmlos-browser.html" class="size"><img src="./SysImg/htmlos-browser-mini.png" height="50px" width="50px" alt="Web browser"></a><br><br>
+            <a href="./files.html" class="size"><img src="./SysImg/files-logo.png" height="50px" width="50px" alt="file browser"></a>
+            <p> Classic mode:<br><br>
+            <a href="./htmlos-classic/htmloshub.html" class="size"><img src="./SysImg/desktop-mini.png" height="50px" width="50px" alt="Classic desktop"></a>
+            </p>
+            <a href="#" class="nav-toggle"></a>
+        </nav>
+        
+        <button class="wrapper" onclick="filebrowse()">Start browsing files</button>
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js">  
+        </script>
+        <script src="./sidepanel.js">
+        </script>
+    </body>
+</html>

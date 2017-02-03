@@ -1,0 +1,99 @@
+.look {
+    color: red;
+}
+
+.look-main{
+    background-image: url("htmlosstandardbackground.jpeg");
+    background-color: darkkhaki;
+    background-size: 100%;
+}
+.desktop-icons {
+    border: 0px solid black;
+    text-decoration: none;
+}
+
+.desktop-icons:visited{
+    text-decoration: none;
+}
+
+.desktop-icons:hover{
+    height: 55px;
+    width: 55px;
+    border: 1px solid white;
+}
+
+.wrapper {
+    margin-left: 50px;
+}
+
+.nav-side{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 250px;
+    /*color app panel:*/
+    background-color: teal;
+    /*================================================================*/
+    box-sizing: border-box;
+    padding: 20px;
+    color: #fff;
+    margin-left: -250px;
+    transition: margin 440ms ease-in-out;
+}
+
+.nav-toggle{
+    position: absolute;
+    right: -40px;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    /*color side panel trigger*/
+    background-color: teal;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom-right-radius: 3px;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, .1);
+}
+
+.nav-toggle:before {
+    content: "\2192";
+    font-weight: 600;
+    color: #fff;
+}
+
+.nav-side.nav-open {
+    margin-left: 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.nav-side.nav-open .nav-toggle:before{
+    content: "\2190";
+}
+
+.size{
+    text-decoration: none;
+}
+
+.size:visited {
+    text-decoration: none;
+}
+
+.size:hover{
+    width: 60px;
+    height: 60px;
+}
+
+.look-browser {
+    background-color: darkkhaki;
+    background-size: 100%;
+}
+
+/*the "No internet" clock*/
+.clock-no-internet {
+    background-color: black;
+    color: lightskyblue;
+    font-size: 40px;
+}

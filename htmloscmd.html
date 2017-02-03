@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Command line
+        </title>
+        <link rel="stylesheet" href="settings.css">
+        <style>
+            body{
+                background-color: black;
+                color: white;
+            }
+            textarea{
+                background-color: black;
+                color: white;
+                font-size: 14px;
+            }
+        </style>
+        <script language="javascript1.3">
+        function loop(){
+            value= infinite;
+            counter= 0;
+            comm= document.getElementById("cmd").innerHTML;
+            switch(comm) {
+                case "exit":
+                window.location= "htmlos-desktop.html"
+                break;
+            }
+            for (counter <= value;) {
+                comm
+                counter++;
+                break;
+                Document.getElementById ("log").innerHTML= counter; 
+            }; 
+        };
+        </script>
+    </head>
+    <body>
+        <nav class="nav-side">
+            <iframe src="http://free.timeanddate.com/clock/i538jbsj/n338/tlnl/fn6/fs16/fc9ff/tc000/ftb/pa8/tt0/tw1/th1/ta1/tb4" frameborder="0" width="208" height="56"></iframe><br><br>
+            
+            Apps: <br><br>
+            <a class="size" href="htmlos-desktop.html"><img src="./SysImg/desktop-mini.png" height="50px" width="50px" alt="Show Desktop"></a><br><br>
+            <a class="size" href="htmloscmd.html"><img src="./SysImg/terminal.png" height="50px" width="50px" alt="Command line"></a>
+            <a href="./htmlos-browser.html" class="size"><img src="./SysImg/htmlos-browser-mini.png" height="50px" width="50px" alt="Web Browser"></a><br><br>
+            <a href="./files.html" class="size"><img src="./SysImg/files-logo.png" height="50px" width="50px" alt="file browser"></a>
+            <p> Classic mode:<br><br>
+            <a href="./htmlos-classic/htmloshub.html" class="size"><img src="./SysImg/desktop-mini.png" height="50px" width="50px" alt="Classic desktop"></a>
+            </p>
+            <a href="#" class="nav-toggle"></a>
+            <hr>
+            debug log:
+            <p id="log">a</p>
+        </nav>
+        <h1>Starting Command Line <br>
+        ----------------------------------------------------------------------------------------------<br>
+        Done...<br>
+        <br>
+        htmlOS[C:]> <textarea id="cmd">a</textarea></h1>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js">  
+        </script>
+        <script src="./sidepanel.js">
+        </script>
+    </body>
+</html>

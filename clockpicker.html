@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>choose one</title>
+        <style>
+            body{
+                background-color: teal;
+            }
+        </style>
+        <link rel="stylesheet" href="settings.css">
+    </head>
+    <body>
+
+    <!--default-->
+        <iframe src="http://free.timeanddate.com/clock/i538jbsj/n338/tlnl/fn6/fs16/fc9ff/tc000/ftb/pa8/tt0/tw1/th1/ta1/tb4" frameborder="0" width="208" height="56"></iframe>
+
+    <!--Brake line (this is NOT a clock-->
+        <br>
+        <br>
+        <br>
+
+    <!--No Internet-->
+        <div class="clock-no-internet" onclick="clock();" id="Time">00:00, thu 0 - september '42 UTC </div>
+        <script language="javascript">
+            function clock(){
+                /*global getTime*/
+                getTime= new Date();
+                var i=0;
+                for (i >= 0; i++;) {
+                    document.getElementById("Time").innerHTML="" + getTime;
+                }
+            }
+            clock();
+            </script>
+    
+    <!--Brake Lines again-->
+    <br>
+    <br>
+    <br>
+    
+    <!--analog (Flash Player REQUIRED-->
+        <iframe src="http://free.timeanddate.com/clock/i538j1dq/n338/szw110/szh110/hoc000/hbw0/hfc000/cf100/hgr0/mqc0f0/mqs2/mql4/mqw15/mqd86/mhc0f0/mhs2/mhl4/mhd86/mmc0f0/mml2/mmd88/hhc00f/hhs2/hhl50/hhw11/hmc00f/hms3/hml80/hmw11/hsc00f/hsl90/hsw6" frameborder="0" width="110" height="110"></iframe>
+        
+    <!--a radom playlist-->
+        <footer><iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Apetervoss2001%3Aplaylist%3A59lQZANuS4yGXTjLCZ1qdH" width="300" height="380" frameborder="0" allowtransparency="true"></iframe></footer>
+        
+    </body>
+</html>

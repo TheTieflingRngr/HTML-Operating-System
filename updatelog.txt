@@ -1,0 +1,73 @@
+htmlOS update log:
+
+Build 30001:
+* restarted from scratch
+* command line added
+* settings menu is now clearer
+
+Build 30002:
+* new backgrounds added
+* ultrawide (21:9 resolution) support
+
+Build 30003:
+* side panel added
+
+Build 30004:
+* update log added
+
+Build 30005:
+* browser added
+
+Build 30006:
+* clock added to side panel
+* clock picker added (copy one of the <iframe></iframe> tags)
+
+Build 30007:
+* browser inproved(added a icon for the "preselected" button
+* update log updated
+
+Build 30008:
+* file browser added
+
+Build 30009:
+* browser "preselected" button replaced
+
+Build 30010:
+
+* Biggest Update jet!! (all in 1 day!!!)
+
+* File browser works
+* offline clock added
+* offline clock settings added
+* offline clock doesn't work
+* added file browser to side panel
+* updated web browser link 
+(before: <a href="./htmlos-browser.html" class="size"><img src="./SysImg/htmlos-browser-mini.png" height="50px" width="50px" alt="Command line"></a>
+new: <a href="./htmlos-browser.html" class="size"><img src="./SysImg/htmlos-browser-mini.png" height="50px" width="50px" alt="Browser"></a><br><br>)
+*added file browser logo to SysImg
+* logo for update log added
+* found unfixable typo in htmlOS-Ultrawide-text.png
+* added new ultrawide background without typo, the old one will still be available
+* I'm bored
+
+Build 30011:
+* File browser abort (no) is now functional
+* Browser abort function added
+* alerts are not working as expected in the Midori web browser
+* htmlOS tested in Lynx (or "links"), a text based browser (JavaScript doesn't work)
+* Please ignore the .vscode directory, the directory irrelevant for end users
+
+Build 30012:
+* Fixed name of the file browser
+* added warning about case sesitivity in file browser
+* updated web browser link
+(before: <a href="./htmlos-browser.html" class="size"><img src="./SysImg/htmlos-browser-mini.png" height="50px" width="50px" alt="Browser"></a><br><br>
+new: <a href="./htmlos-browser.html" class="size"><img src="./SysImg/htmlos-browser-mini.png" height="50px" width="50px" alt="Web Browser"></a><br><br>)
+
+Build 30013:
+* Smoother animations for the side panel 
+(before: transition: margin 200ms ease-in-out;
+new: transition: margin 440ms ease-in-out;)
+* Classic mode added
+* Classic mode translated
+* added classic mode to side panel
